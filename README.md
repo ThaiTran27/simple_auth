@@ -3,18 +3,22 @@ Demo Basic Auth
 1. Mở command Prompt
 2. npm install
 3. node basic_auth.js
+![Ảnh minh họa](./public/img/A4.png)
 ## Test với POSTMAN 
 4. Get: http://localhost:3000
 5. Tab Auth → chọn Basic Auth → nhập username/password
+![Ảnh minh họa](./public/img/A3.png)
 
 Demo Cookie Auth
 ## Cài đặt
 1. Mở command Prompt
 2. npm install
 3. node cookie_auth.js
+![Ảnh minh họa](./public/img/A2.png)
 ## Test với POSTMAN 
 4. POST: http://localhost:3001/login
 5. Body -> raw -> nhập { "username": "admin", "password": "12345" } => thông báo thành công: Logged in!
+![Ảnh minh họa](./public/img/A1.png)
 ## Test với MONGODB
 6. Kết nối với localhost:27017
 7. Chọn cookieApp -> cookies
@@ -31,3 +35,4 @@ Demo Cookie Auth
   },
   "__v": 0
 }
+![Ảnh minh họa](./public/img/Screenshot%202025-09-25%20191016.png)
